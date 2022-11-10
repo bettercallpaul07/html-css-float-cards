@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    text-align: center;
+    color: palevioletred;
+}
+
+.container {
+
+    padding: 20px;
+
+}
+
+.textual {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    height:300px;
+    width: 300px;
+    background-color: black;
+    border: 1px solid red;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.worker {
+    color:white
+}
+
+.mail {
+    color:lightskyblue
+}

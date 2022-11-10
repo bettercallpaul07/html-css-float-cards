@@ -9,13 +9,14 @@ body {
     font-family: 'Fredoka One', cursive;
     margin: 0 auto;
     padding: 80px 0;
-    width: 1100px;
+    width: 1200px;
 }
 
 
 h1 {
     text-align: center;
     color: palevioletred;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -26,6 +27,7 @@ h1 {
 
 .textual {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .clearfix::after {
@@ -40,49 +42,50 @@ h1 {
     color: white;
     width: calc(100% / 3);
     float: left;
-    padding-bottom: 30px;
-
 }
 
 img {
     height: 100px;
-}
-
-.float-left {
     float: left;
-}
-
-.float-right {
-    float: right;
-}
-
-.float-none {
-    float: none;
 }
 
 .worker {
     color:white;
-    display: inline-block;
+    padding-bottom: 10px;
+
 }
 
 .name {
     color:white;
-    display: inline-block;
+    padding-bottom: 10px;
+
 }
 
 
 
 .mail {
     color:lightskyblue
-    display: inline-block;
+    padding-bottom: 10px;
+
+
+}
+
+.info {
+
+    padding-left: 10px;
+    padding-right: 20px;
 
 
 }
 
 .riga-sopra {
 
+    padding-bottom: 50px;
+
+
 }
 
 .riga-sotto {
+
 
 }

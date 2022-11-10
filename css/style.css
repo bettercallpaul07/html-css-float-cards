@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+
+    font-family: 'Fredoka One', cursive;
+
+}
+
+
 h1 {
     text-align: center;
     color: palevioletred;
@@ -30,11 +37,14 @@ h1 {
 }
 
 .card {
-    height:300px;
-    width: 300px;
     background-color: black;
     border: 1px solid red;
 
+}
+
+img {
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 .float-left {
